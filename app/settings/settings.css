@@ -1,0 +1,18 @@
+.settings{max-width:720px;margin:0 auto;padding:24px 20px 56px;display:flex;flex-direction:column;gap:24px}
+.settings h1{margin:8px 0 0;font-size:2rem;line-height:1.2}
+.settings h2{margin:0;font-size:1.25rem}
+.settings .back{color:var(--study);font-weight:500}
+.settings .muted{color:var(--muted);margin:0}
+.settings .card{background:#fff;border:1px solid #dfe3e8;border-radius:16px;padding:16px;display:grid;gap:14px}
+.settings label{display:flex;flex-direction:column;gap:4px;font-size:.9375rem;font-weight:500}
+.settings input{font:inherit;min-height:44px;padding:8px 10px;border:1px solid #b9c0c9;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+.settings .switch{flex-direction:row;align-items:center;gap:10px;font-weight:400;font-size:1rem}
+.settings .switch input{width:22px;height:22px;min-height:0;flex:none}
+.settings details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:500}
+.settings details ol{margin:0;padding-left:1.25rem;display:grid;gap:8px}
+.settings button{font:inherit;min-height:44px;padding:8px 16px;border-radius:10px;border:1px solid transparent;cursor:pointer}
+.settings button:disabled{opacity:.5;cursor:default}
+.settings .primary{background:var(--study);color:#fff;font-weight:700}
+.settings .ghost{background:#fff;border-color:#c9cfd6;color:var(--ink);min-height:36px;padding:4px 12px;font-size:.9375rem}
+.settings .form-error{margin:0;color:#b42318}
+.settings button:focus-visible,.settings input:focus-visible,.settings a:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
