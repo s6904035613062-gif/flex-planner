@@ -1,0 +1,8 @@
+.privacy{max-width:720px;margin:0 auto;padding:24px 20px 56px;line-height:1.8}
+.privacy h1{margin:12px 0 4px;font-size:2rem;line-height:1.25}
+.privacy h2{margin:32px 0 8px;font-size:1.25rem;line-height:1.4}
+.privacy p{margin:0 0 12px}
+.privacy ul{margin:0 0 12px;padding-left:1.25rem;display:grid;gap:6px}
+.privacy a{color:var(--study)}
+.privacy .updated{color:var(--muted)}
+.privacy a:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
